@@ -1,5 +1,12 @@
 import { Months } from "./enums";
 
-let currentDay: number = new Date().getDay();
-let currentMonth: number = new Date().getMonth();
-let currentYear: number = new Date().getFullYear();
+let date: Date = new Date();
+
+let currentDay: number = date.getDay();
+let currentMonth: number = date.getMonth();
+let currentYear: number = date.getFullYear();
+
+// Function to print the Calendar
+function printCalendar(): void {
+  const firstDay = new Date();
+}
